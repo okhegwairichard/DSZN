@@ -1,0 +1,275 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+nav {
+    background: black;
+}
+.nav-link {
+    padding: 5px 13px;
+}
+.nav-link {
+    color: white !important;
+}
+.nav-link:hover {
+    background: rgb(51, 51, 51);
+    color: rgb(185, 185, 185) !important;
+    border-radius: 10px;
+}
+.nav-btn {
+    color: white;
+    text-decoration: none;
+    padding: 8px 14px;
+}
+.nav-btn:hover {
+    background: rgb(51, 51, 51);
+    color: rgb(170, 170, 170);
+    border-radius: 10px;
+}
+.top-bar input {
+    background: black;
+    border: none;
+    width: 80px;
+    color: white;
+}
+
+
+
+.hero-section {
+    color: white;
+    background: black;
+}
+.container {
+    border: 1px dashed gree
+}
+.row {
+    border: 1px solid re
+}
+.col-lg-6 {
+    border: 1px solid re
+}
+.hero-text h1 {
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 10px;
+}
+.hero-text p {
+    color: rgb(173, 173, 173);
+    margin-bottom: 30px;
+    line-height: 25px;
+}
+.shop-btn {
+    background: white;
+    color: black;
+    padding: 15px 35px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.shop-btn:hover {
+     background: rgb(185, 185, 185);
+     color: black;
+}
+.hero-image {
+    width: 70%;
+    max-width: 500px;
+    object-fit: cover;
+}
+
+
+
+.brand-strip {
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+    overflow: hidden;
+    padding: 15px 0;
+    background: black;
+}
+.marquee {
+    white-space: nowrap;
+    display: inline-block;
+    animation: scroll 30s linear infinite;
+}
+.marquee span {
+    color: white;
+    font-weight: 600;
+    margin-right: 30px;
+    font-size: 17px;
+}
+@keyframes scroll {
+    from{transform: translateX(100%);}
+    to{transform: translateX(-100%);}
+}
+
+
+
+.shop-section {
+    background: black;
+}
+.shop-card {
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.shop-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.overlay {
+    position: absolute;
+    inset: 0;
+    padding: 10px;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        to top,
+            rgba(0,0,0,.8),
+            rgba(0,0,0,.2)
+    );
+}
+.overlay h3 {
+    color: white;
+    font-weight: 700;
+}
+.overlay a {
+    color: white;
+    text-decoration: none;
+}
+
+
+
+.PRODUCTS {
+    background: black;
+}
+.products-btn {
+    color: white;
+    text-decoration: none;
+}
+.products-btn:hover {
+    color: rgb(184, 184, 184);
+}
+.product-card {
+    height: 350px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.product-card img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.PRODUCTS .overlay h3 {
+    color: white;
+    font-weight: 700;
+    font-size: 24;
+}
+.PRODUCTS .overlay p {
+    color: white;
+}
+.PRODUCTS .overlay-text {
+    font-size: 24;
+}
+
+
+
+.lookbook {
+    background: black;
+}
+.lookbook-item {
+    cursor: pointer;
+    position: relative;
+    transition: .5s ease;
+}
+.lookbook-item::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    transition: .5s;
+}
+.lookbook-item:hover {
+    transform: translateY(-8px);
+}
+.lookbook img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+}
+.lookbook img:hover {
+    transform: scale(1.08);
+}
+.lookbook-item:hover::before {
+    background: rgba(0, 0, 0, .15);
+}
+
+
+
+.subscribe {
+    background: black;
+}
+.subscribe .row {
+    background: rgb(39, 39, 39);
+    color: white;
+    padding: 15px 20px;
+}
+.subscribe input {
+    background: black;
+    padding: 7px 15px;
+}
+.sub-btn {
+    background: white;
+    color: black;
+    padding: 12px 30px;
+    text-decoration: none;
+    transition: 0.4s;
+}
+.sub-btn:hover {
+     background: rgb(185, 185, 185);
+     color: black;
+}
+
+
+
+footer {
+    background: black;
+    color: white;
+}
+.footer-links {
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
+    padding: 20px 0;
+}
+.about-us h6 {
+    font-weight: 750;
+    font-size: large;
+    color: white;
+}
+.footer-link {
+    text-decoration: none;
+    color: rgb(180, 180, 180);
+    transition: .3s;
+}
+.footer-link:hover {
+    color: white;
+    transform: translateY(-3px);
+}
+.footer-icons a {
+    margin-right: 15px;
+
+}
+.footer-icons i {
+    font-size: 25px;
+    padding-top: 20px;
+    transition: .3s;
+}
+.footer-icons i:hover {
+    transform: translateY(-3px);
+}
+.footer-bottom {
+    padding-top: 15px;
+}
