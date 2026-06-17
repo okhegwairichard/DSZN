@@ -195,9 +195,9 @@ nav {
     transform: translateY(-8px);
 }
 .lookbook img {
-    object-fit: contain;
+    object-fit: cover;
     width: 100%;
-    height: auto;
+    height: 100%;
     transition: .5s ease;
 }
 .lookbook img:hover {
@@ -206,7 +206,6 @@ nav {
 .lookbook-item:hover::before {
     background: rgba(0, 0, 0, .15);
 }
-
 
 
 .subscribe {
@@ -271,5 +270,26 @@ footer {
     transform: translateY(-3px);
 }
 .footer-bottom {
+
+
+
+.breadcrumb {
+   background: black;
+}
+.breadcrumb a {
+   text-decoration: none;
+   color: white;
+}
+.lookbook-hero {
+    background: black;
+    color: white;
+    border-bottom: 2px solid white;
+}
+.lookbook-text h1 {
+    font-weight: 600;
+}
+.lookbook-text p {
+    font-size: small;
+}
     padding-top: 15px;
 }
