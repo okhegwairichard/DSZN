@@ -269,17 +269,21 @@ footer {
     transform: translateY(-3px);
 }
 .footer-bottom {
+    padding-top: 15px;
+}
+
+
 
 
 .breadcrumb {
-   background: blue;
+   background: black;
 }
 .breadcrumb a {
    text-decoration: none;
    color: white;
 }
 .lookbook-hero {
-    background: purple;
+    background: black;
     color: white;
     border-bottom: 2px solid white;
 }
