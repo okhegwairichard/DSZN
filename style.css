@@ -292,5 +292,19 @@ footer {
 .lookbook-text p {
     font-size: small;
 }
+.lookbook-overlay {
+    position: absolute;
+    inset: 0;
+    padding: 10px;
+    justify-content: end;
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(
+        to top,
+            rgba(0,0,0,.8),
+            rgba(0,0,0,.2)
+    );
+}
     padding-top: 15px;
+    color: white;
 }
