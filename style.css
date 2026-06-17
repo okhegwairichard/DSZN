@@ -5,7 +5,7 @@ body {
 
 
 nav {
-    background: blac;
+    background: black;
 }
 .nav-link {
     padding: 5px 13px;
@@ -285,7 +285,10 @@ footer {
 .lookbook-hero {
     background: black;
     color: white;
+}
+.lookbook-hero-text. {
     border-bottom: 2px solid white;
+    border-top: 2px solid white
 }
 .lookbook-text h1 {
     font-weight: 600;
