@@ -273,16 +273,15 @@ footer {
 .footer-bottom {
 
 
-
 .breadcrumb {
-   background: black;
+   background: blue;
 }
 .breadcrumb a {
    text-decoration: none;
    color: white;
 }
 .lookbook-hero {
-    background: black;
+    background: purple;
     color: white;
     border-bottom: 2px solid white;
 }
