@@ -1,5 +1,7 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background: black;
+    color: white;
 }
 
 
@@ -9,8 +11,6 @@ nav {
 }
 .nav-link {
     padding: 5px 13px;
-}
-.nav-link {
     color: white !important;
 }
 .nav-link:hover {
