@@ -173,7 +173,6 @@ nav {
     cursor: pointer;
     position: relative;
     transition: .5s ease;
-    height: auto;
 }
 .lookbook-item::before {
     content: "";
@@ -209,6 +208,7 @@ nav {
 .subscribe input {
     background: black;
     padding: 7px 15px;
+    color: white;
 }
 .sub-btn {
     background: white;
